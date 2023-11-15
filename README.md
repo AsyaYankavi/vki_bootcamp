@@ -30,6 +30,21 @@ This BMI Calculator allows users to calculate their Body Mass Index by entering 
 4. Click the "Hesapla" (Calculate) button.
 5. View the calculated BMI and interpretation.
 
+## Features
+
+- BMI calculation based on height and weight
+- Node.js server for handling requests
+- MySQL database for data storage
+- RESTful API for BMI calculations
+
+## Install dependencies:
+npm install
+## Set up the MySQL database. Create a .env file with the following content:
+DB_HOST=localhost
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+DB_DATABASE=bmi_calculator
+
 ## Installation
 
 1. Clone the repository:
